@@ -71,7 +71,7 @@ body {
   font-weight: 800;
 }
 
-.header-top > button {
+.header-top  button {
   padding: 17px 24px;
   font-size: 20px;
   font-weight: 600;
@@ -80,6 +80,10 @@ body {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+}
+
+.header-top a {
+  text-decoration: none;
 }
 
 .banner {
