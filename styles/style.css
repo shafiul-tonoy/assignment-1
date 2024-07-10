@@ -13,11 +13,30 @@ body {
   margin: 0 auto;
 }
 
-.primary-color{
+.primary-color {
   color: rgb(13, 19, 33);
 }
-.secondary-color{
+.secondary-color {
   color: rgba(13, 19, 33, 0.7);
+}
+
+.header-one {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  color: rgb(13, 19, 33);
+  text-align: center;
+}
+.paragraph-center {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.paragraph {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  font-weight: 400;
 }
 /* Shared styling end */
 
@@ -68,11 +87,6 @@ body {
 }
 
 .banner p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  opacity: 0.7;
   margin-bottom: 26px;
 }
 .banner button {
@@ -93,45 +107,37 @@ body {
   margin: 75px auto 90px;
   padding: 80px 100px 50px 100px;
 }
-.why-section article{
-  display: flex;  
+.why-section article {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   border: 1 px solid red;
   gap: 10px;
 }
 
-.why-section>h1{
-  text-align: center;
-  font-size: 32px;
-  font-weight: 800;
+.why-section > h1 {
   margin-bottom: 24px;
 }
-.why-section>p{
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
+.why-section > p {
   margin-bottom: 48px;
 }
 
-.why-section>article{
+.why-section > article {
   background-color: white;
   padding: 48px;
   border-radius: 16px;
   margin-bottom: 32px;
 }
-.why-section article h3{
+.why-section article h3 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 16px;
   line-height: 36px;
 }
-.why-section article p{
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 32px;  
+.why-section article p {
+  margin-bottom: 32px;
 }
-.why-section article button{
+.why-section article button {
   border: 1px solid rgba(13, 19, 33, 0.7);
   padding: 12px 20px 12px 20px;
   font-size: 20px;
@@ -139,5 +145,25 @@ body {
   color: rgba(13, 19, 33, 0.7);
   background-color: white;
 }
-
 /* why section styling end  */
+
+/* inspiration-section styling end  */
+.inspiration-section {
+  max-width: 1140px;
+  margin: 0px auto 90px;
+}
+.inspiration-content {
+  max-width: 850px;
+  margin: 0px auto;
+}
+.inspiration-section p {
+  margin: 24px auto 48px;
+}
+.video-frame {
+  max-width: 1140px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+/* inspiration-section styling end  */
